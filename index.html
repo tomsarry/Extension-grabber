@@ -14,6 +14,7 @@
     </head>
 
     <body>
+        <div class="container">
 
         <header>
             <div class='top'>
@@ -26,20 +27,28 @@
             <div class='form'>
                 <!-- autofocus -->
                 <input id='formInput' class='text-form' placeholder="Input your filename here..." name='formInput'>
-                <button class='btnSubmit' id='btnSubmit'>Go</button>
+                <a href="#" class='btnSubmit' id='btnSubmit'>GO</a>
             </div>
 
             <div class='result'>
-                <p class='original' id='original'>original</p>
-                <p class='extension' id='result'>result</p>
+                <!-- <p class='original' id='original'>original</p>
+                <p class='extension' id='result'>result</p> -->
+                <table id='tableResult'>
+                    <tr>
+                        <th>Element</th>
+                        <th>Extension</th>
+                    </tr>
+                </table>
             </div>
 
 
         </main>
+
+    </div>
         
-        <footer>
-            <div class='div-ftr'>Copyright SARRY Tom / June 2020</div>
-        </footer>
+        <footer>Copyright SARRY Tom / June 2020</footer>
+
+    
     
     </body>
 

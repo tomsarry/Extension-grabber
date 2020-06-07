@@ -4,10 +4,10 @@ var table = document.getElementById('tableResult');
 
 
 //find the "link"
-var reLink = /(\w+\.[^\/]+)+/g;
+var reLink = /(\w+\.[^\/ ]+)+/g;
 
 // regex to find the extension
-var reDot = /(\.\w+)+$/g;
+var reDot = /(\.\w+)$/g;
 
 var links, extension, extensions, userInput;
 
